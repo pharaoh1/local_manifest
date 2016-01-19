@@ -9,10 +9,9 @@
   <project name="CyanogenMod/android_device_oppo_common" path="device/oppo/common" remote="github" revision="cm-13.0" />
   <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-13.0" />
   <project name="tilaksidduram/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="cm-13.0" />
-  <project name="CyanogenMod/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="github" revision="cm-13.0" />
-  <project name="CyanogenMod/android_vendor_qcom_opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="github" revision="cm-13.0" />
+  <project name="CyanogenMod/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="github"  revision="cm-13.0" />
 
-<!--Samsung Note II / N7100 sources-->
+ <!--Samsung Note II / N7100 sources-->
   <project name="CyanogenMod/android_device_samsung_n7100" path="device/samsung/n7100" remote="github" revision="cm-12.1" />
   <remove-project name="CyanogenMod/android_device_samsung_n7100" />
   <project name="tilaksidduram/android_device_samsung_n7100" path="device/samsung/n7100" remote="github" revision="cm-13.0" />
@@ -28,9 +27,36 @@
   <project name="CyanogenMod/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" revision="cm-13.0" />
   <project name="tilaksidduram/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="nameless" />
   <project name="CyanogenMod/android_external_stlport" path="external/stlport" remote="github" revision="cm-13.0" />
+
+ <!--Repositories to replace-->
   <remove-project name="CyanogenMod/android_frameworks_native" />
-  <project name="tilaksidduram/android_frameworks_native" path="frameworks/native" remote="github" revision="cm-13.0" />
   <remove-project name="CyanogenMod/android_frameworks_av" />
+  <remove-project name="CyanogenMod/android_hardware_libhardware" />
+  <remove-project name="CyanogenMod/android_frameworks_base" />
+  <remove-project name="CyanogenMod/android_packages_apps_Settings" />
+  <remove-project name="CyanogenMod/android_vendor_cm" />
+  <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
+  <remove-project name="CyanogenMod/android_packages_apps_InCallUI" />
+  <remove-project name="CyanogenMod/android_frameworks_opt_telephony" />
+  <remove-project name="CyanogenMod/android_packages_services_Telephony" />
+  <remove-project name="CyanogenMod/cm_platform_sdk" />
+
+ <!--Repositories to fetch-->
+  <project name="tilaksidduram/android_frameworks_native" path="frameworks/native" remote="github" revision="cm-13.0" />
   <project name="tilaksidduram/android_frameworks_av" path="frameworks/av" remote="github" revision="cm-13.0" />
+  <project name="ivanmeler/android_hardware_libhardware" path="hardware/libhardware" remote="github" revision="cm-13.0" />
+  <project name="tilaksidduram/frameworks_base" path="frameworks/base" remote="github" revision="cm-13.0" />
+  <project name="tilaksidduram/packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="cm-13.0" />
+  <project name="tilaksidduram/android_vendor_cm" path="vendor/cm" remote="github" revision="cm-13.0" />
+  <project name="tilaksidduram/android_packages_apps_CMUpdater" path="packages/apps/CMUpdater" remote="github" revision="cm-13.0" />
+  <project name="temasek/android_packages_apps_InCallUI" path="packages/apps/InCallUI" remote="github" revision="cm-13.0" />
+  <project name="temasek/android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="github" revision="cm-13.0" />
+  <project name="temasek/android_packages_services_Telephony" path="packages/services/Telephony" remote="github" revision="cm-13.0" />
+  <project name="temasek/cm_platform_sdk" path="vendor/cmsdk" remote="github" revision="cm-13.0" />
+
+ <!--3rd Party Repositories to fetch-->
+  <project name="jgcaaprom/CameraNext" path="packages/apps/CameraNext" remote="github" revision="cm-12.1" />
+  <project name="temasek/android_packages_apps_OmniSwitch" path="packages/apps/OmniSwitch" remote="github" revision="cm-13.0" />
+  <project name="temasek/frameworks_opt_cards" path="frameworks/opt/cards" remote="github" revision="cm-13.0" />
 </manifest>
 
